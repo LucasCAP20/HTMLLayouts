@@ -1,0 +1,293 @@
+.header-top
+{
+    background-color:#353434;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.container-margin
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.menu
+{
+    margin-left: 100px;
+    display: flex;
+}
+
+.menu-item
+{
+    margin: 0 13px;
+    color: #ffffff;
+}
+
+.menu-item:hover
+{
+    color: green;
+    transition: 1s;
+}
+
+
+.div-logo-menu
+{
+    display: flex;
+    align-items: center;
+}
+
+
+/* BANNER FORMAT */
+
+.banner-section
+{
+    background-image: url(../img/billboard.jpg);
+    width: 100%;
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+}
+
+.wrapper
+{
+    width: 100%;
+}
+
+.wrapper-child
+{
+    max-width: 850px;
+    margin: auto;
+}
+
+.wrapper-title
+{
+    height: 140px;
+    float: right;
+    font-size: 35px;
+    font-family: Avant;
+}
+
+.wrapper-title p
+{
+    opacity: 0.7;
+    padding: 20px 15px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+}
+
+.wrapper-title p:first-child
+{
+   width: 389px;
+}
+
+
+/* FEATURES */
+
+.features
+{
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper-feature
+{
+    display: flex;
+    width: 365px;
+    margin-bottom: 100px;
+}
+
+.feature-img
+{
+    padding-right: 30px;
+}
+
+.feature-infos h1
+{
+    font-size: 23px;
+    color: #767575;
+    margin-bottom: 20px;
+}
+
+.feature-infos p
+{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color:#9e9e9e;
+}
+
+.feature-infos p:last-child
+{
+    margin-bottom: 0;
+    color: #848484;
+}
+
+
+
+/* TESTIMONIALS */
+
+.wrapper-testimonials
+{
+    padding: 130px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wrapper-infos
+{
+    font-family: Lato;
+    margin: auto;
+    max-width: 900px;
+}
+
+.wrapper-infos h1
+{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color:#4e4e4e;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.wrapper-infos p
+{
+    line-height: 30px;
+    font-size: 20px;
+    color:#8e8d8d;
+}
+
+.wrapper-infos p:last-child
+{
+    margin-top: 50px;
+    color: #686767;
+    font-weight: bold;
+}
+
+
+/* NEWS */
+
+.wrapper-news
+{
+    display: flex;
+}
+
+.wrapper-news-img
+{
+    background-image: url(../img/info_img.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: left top;
+    height: 405px;
+}
+
+.wrapper-news-info
+{
+    width: 50%;
+    height: 405px;
+    background-color: #353434;
+    display: flex;
+    align-items: center;
+}
+
+.news-content
+{
+    max-width: 590px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.news-content h1
+{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.news-content p
+{
+    line-height: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.news-content p:last-child
+{
+    margin-bottom: 0;
+}
+
+
+/* SIGN UP */
+
+.wrapper-signup
+{
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-signup h1
+{
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+}
+
+.wrapper-signup p
+{
+    color:#7f7c7c;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.wrapper-signup button
+{
+    width: 270px;
+    height: 60px;
+    border: none;
+    background-color: #65bf95;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #FFF;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.wrapper-signup button:hover
+{
+    background-color: #56B086;
+    transition: 1s;
+}
+
+
+/* FOOTER */
+
+.wrapper-footer
+{
+    padding: 120px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.wrapper-footer img
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 33px;
+}
